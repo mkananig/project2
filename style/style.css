@@ -53,63 +53,49 @@ body {
 }
 
 
-
-
-
-
-
-nav h1 {
-  font-size: 30px;
+.p {
+  margin: 20px;
 }
 
-main {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  padding: 10px;
-}
 
-main p {
-  font-size: 20px;
-}
-
-main h2 {
+.h2 {
   font-size: 25px;
   text-align: center;
 }
 
-main h3 {
-  text-align: center;
+.h3 {
+   margin: 20px;
 }
 
-main img {
+.img {
   max-height: 300px;
   max-width: 100%;
 }
 
-main iframe {
+.iframe {
   max-width: 100%;
   min-width: 40%;
   height: 315px;
-  border: none;
-}
-
-main figure {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-main table {
+.figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.table {
   width: 75%;
 }
 
-main td {
+.table td {
   width: 50%;
 }
 
-main th {
+.table th {
   text-align: left;
 }
 
@@ -118,9 +104,26 @@ main th {
   padding-left: 20px;
 }
 
-.navbar {
-  text-align:center;
-  width: 100%;
+.center {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.resume{
+	margin: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.border{
+  border-style: solid;
+  border-width: 5px;
+}
+
+.sport{
+	background-color: #6F1A0B;
+	margin: 20px;
+	color: white;
+	
 }
