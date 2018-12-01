@@ -75,10 +75,15 @@ body {
 .iframe {
   max-width: 100%;
   min-width: 40%;
-  height: 315px;
+  height: 500px;
+  width:500px;
+  position:center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  border: 20px ridge #ddd;
+  margin: 20px;
+  
 }
 
 .figure {
@@ -116,14 +121,56 @@ body {
 	font-size: 16px;
 }
 
-.border{
-  border-style: solid;
-  border-width: 5px;
+
+.border1{
+  border: 5px solid;
+  border-color: #6D61A2;
+  border-radius: 10px;
+  width: 9%;
 }
+
+.border2{
+  border: 10px solid;
+  border-color: #2DB8C1;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.border3{
+  border: 5px solid;
+  border-color: #6D61A2;
+  border-radius: 10px;
+  width: 18%;
+}
+
+.border4{
+  border: 5px solid;
+  border-color: #6D61A2;
+  border-radius: 10px;
+  width: 12.5%;
+ }
 
 .sport{
 	background-color: #6F1A0B;
 	margin: 20px;
 	color: white;
 	
+}
+
+.footer{
+  color: #FFFFFF;
+  background: #5F9DAA;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  position: bottom;
+  width: 100%;
+  text-align: center;
+}
+.footer h2{
+  color: #11E9DF;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  text-align: center;
+  position: bottom;
 }
